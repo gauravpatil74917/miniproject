@@ -2,6 +2,7 @@ import streamlit as st
 
 st.header("FLAMES GAME")
 st.write("Enter your name and your crush's name to find out your relationship status")
+st.write("hi,i am gaurav")
 
 name1 = list(st.text_input("Enter first name"))
 name2 = list(st.text_input("Enter second name"))
