@@ -1,0 +1,38 @@
+ .teamGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns for a better layout */
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .teamButton {
+    height: 2.7rem;
+    width: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border, #ccc);
+    border-top-right-radius: 1.25rem;
+    border-bottom-left-radius:1.25rem ;
+    background: rgba(51, 69, 113, 1);
+    border: 1px solid var(--border, #5D87FF);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .teamButton:hover {
+    background: rgba(51, 69, 113, 1);
+    width: 15rem;
+    height: 3rem;
+
+  }
+  
+  .teamName {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgba(189, 208, 255, 1);
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  

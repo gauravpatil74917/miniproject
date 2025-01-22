@@ -1,0 +1,162 @@
+/* LoginPage.css */
+.container {
+    background-color: #64748b;
+    position: fixed;
+    inset: 0;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    overflow: hidden;
+  }
+  
+  .leftSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #64748b;
+  }
+  
+  .brandText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8rem;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.64); /* Use -webkit-text-stroke */
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    letter-spacing: 0.1em;
+    user-select: none;
+    white-space: nowrap;
+    filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.1));
+    position: absolute;
+    top: 0;
+    left: 4rem;
+    animation: moveUp 8s ease-out infinite;
+  }
+  
+  
+  .rightSide {
+    border-top-left-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C364C;
+    padding: 2rem;
+  }
+  
+  .formContainer {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(59, 130, 246, 0.5);
+    border-radius: 4px;
+    color: white;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .checkbox {
+    width: 1rem;
+    height: 1rem;
+    accent-color: #3b82f6;
+  }
+  
+  .checkboxLabel {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #94a3b8;
+    font-size: 0.875rem;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: #7189F5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 1rem;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+  
+  .createAccount {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.875rem;
+    margin-top: 2rem;
+  }
+  
+  .welcome {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2.4rem;
+    width: 500px;
+  }
+  
+  @keyframes moveUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  

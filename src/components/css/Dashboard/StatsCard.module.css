@@ -1,0 +1,58 @@
+.statsContainer {
+  margin-top: 3%;
+  width: 100%;
+  padding: 1.5rem;
+  background: #28354E;
+}
+
+.statsTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #E0E5F0;
+  margin-bottom: 1.5rem;
+}
+
+.statsScrollContainer {
+  display: flex;
+  scrollbar-width: none;
+  gap: 1.5rem;
+  overflow-x:scroll;
+  padding: 0.5rem;
+  margin: 0 -1.5rem;
+  padding: 0.5rem 1.5rem 1.5rem;
+}
+
+.statCard {
+  min-width: 280px;
+  height: 190px;
+  flex: 0 0 auto;
+  background: #334571;
+  border-top-right-radius: 15px;
+}
+
+.statHeader {
+  padding: 1.5rem 1.5rem 0.75rem;
+}
+
+.statTitle {
+  padding-top: 22px;
+  font-size: 1rem;
+  color: #E0E5F0;
+  margin: 0;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.statContent {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.statValue {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #E0E5F0;
+  line-height: 1;
+}

@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 1.5rem;
+    background-color: #44464F;
+    ;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo {
+    height: 2.5rem;
+    object-fit:contain;
+  }
+  
+  .titleContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .title {
+    color: #E0E5F0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    background-color: #e5e7eb;
+  }
+  
+  
