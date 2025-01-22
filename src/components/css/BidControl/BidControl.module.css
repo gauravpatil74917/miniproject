@@ -1,0 +1,156 @@
+.bidControls {
+  margin-top: -20%;
+    margin-left: 2rem;
+    border-top-right-radius: 1.5rem;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #5D87FF;
+    background: rgba(51, 69, 113, 1);
+
+  }
+  
+  .bidControlsHeader {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border, #5D87FF);
+  }
+  
+  .bidControlsTitle {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content:center ;
+    color: rgba(224, 229, 240, 1);
+    font-weight: 600;
+    line-height: 36.31px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .bidControlsContent {
+    padding: 1rem;
+  }
+  
+  .bidSection {
+    margin-bottom: 1.5rem;
+  }
+  
+  .bidSectionTitle {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: rgba(224, 229, 240, 1);
+  }
+  
+  .bidInput {
+    width: 90%;
+    padding: 0.6rem;
+    border: 1px solid var(--border, #5D87FF);
+    background-color:  rgba(51, 69, 113, 1);
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    transition: border-color 0.3s ease;
+  }
+  
+  .bidInput:focus {
+    border-color: var(--primary, #007bff);
+    box-shadow: 0 0 3px var(--primary, #007bff);
+  }
+  
+  .bidPoints {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border, #ccc);
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+  
+  .bidButton {
+    padding: 0.5rem 1rem;
+    background: var(--button-bg, #f9f9f9);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bidButton:hover {
+    background-color: var(--button-hover-bg, #e6e6e6);
+  }
+  
+  .bidPointsValue {
+    flex: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: monospace; /* Aligns with `padStart` formatting */
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    /* text-align: left; */
+    /* text-underline-position: from-font; */
+    text-decoration-skip-ink: none;
+    color: rgba(224, 229, 240, 1);
+
+
+  }
+  
+  .bidButtons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .bidButtonLarge {
+    flex: 1;
+    padding: 0.75rem;
+    border: 2px solid var(--border, #00a400);
+    color: #00a400;
+    border-radius: 1.25rem;
+    background: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+  }
+  
+  .bidButtonLarge:hover {
+    background-color: var(--button-hover-bg, #00a400);
+    color: white;
+  }
+  /* .bidButtonLarge.active:hover {
+    background-color: var(--button-hover-bg, #00a400);
+    color: white;
+  } */
+  .bidButtonSmall:hover {
+    background-color: var(--button-hover-bg, #ff0000);
+    color: white;
+  }
+  /* .bidButtonSmall.active:hover {
+    background-color: var(--button-hover-bg, #ff0000);
+    color: white;
+  } */
+
+  .bidButtonLarge.active {
+    background-color: var(--primary, #00a400);
+    color: white;
+    border-color: var(--primary, #00a400);
+  }
+  .bidButtonSmall.active {
+    background-color: var(--primary, #ff0000);
+    color: white;
+    border-color: var(--primary, #ff0000);
+  }
+  .bidButtonSmall {
+    flex: 1;
+    padding: 0.75rem;
+    border: 2px solid var(--border, #ff0000);
+    color: #ff0000;
+    border-radius: 1.25rem;
+    background: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+  }

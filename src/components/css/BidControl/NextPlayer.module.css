@@ -1,0 +1,48 @@
+.nextPlayer {
+  margin-left: 2rem;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #5D87FF;
+    border-top-right-radius: 1.5rem;
+    background: rgba(51, 69, 113, 1);
+  }
+  .nextPlayer:hover{
+    background: rgba(87, 95, 114, 1);
+
+  }
+  .header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border, #5D87FF);
+  }
+  
+  .title {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content:center ;
+    color: rgba(224, 229, 240, 1);
+    font-weight: 600;
+    line-height: 36.31px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  
+  .name {
+    color: rgba(153, 179, 255, 1);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+
+  }
+  
+  .age {
+    color: rgba(153, 179, 255, 1);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  

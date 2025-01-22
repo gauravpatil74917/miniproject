@@ -1,0 +1,66 @@
+/* .mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .mode-toggle-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    transition: all 0.2s;
+  }
+  
+  .mode-toggle-icon.sun {
+    transform: rotate(0) scale(1);
+  }
+  
+  .mode-toggle-icon.moon {
+    position: absolute;
+    transform: rotate(90deg) scale(0);
+  }
+  
+  .dark .mode-toggle-icon.sun {
+    transform: rotate(-90deg) scale(0);
+  }
+  
+  .dark .mode-toggle-icon.moon {
+    transform: rotate(0) scale(1);
+  }
+  
+   */
+
+   .modeToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    transition: all 0.2s ease;
+  }
+  
+  .icon.sun {
+    transform: rotate(0) scale(1);
+  }
+  
+  .icon.moon {
+    position: absolute;
+    transform: rotate(90deg) scale(0);
+  }
+  
+  body.dark .icon.sun {
+    transform: rotate(-90deg) scale(0);
+  }
+  
+  body.dark .icon.moon {
+    transform: rotate(0) scale(1);
+  }
+  

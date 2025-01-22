@@ -1,0 +1,51 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #28354E;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.main {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-x: hidden;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.main :global(.stats-container) {
+  margin-bottom: 2rem;
+}
+
+.main :global(.stats-scroll-container) {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .main {
+    padding: 1rem;
+  }
+
+
+}
+
+.main :global(.stat-card:hover) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
